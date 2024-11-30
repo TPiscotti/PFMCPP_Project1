@@ -52,97 +52,107 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: cricket
+//  action 1: the cricket chirps
+cricket.chirp();
+//  action 2: the cricket hops
+cricket.hop();
+//  action 3: the cricket rubs its wings
+cricket.rubWings();
 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: dog
+//  action 1: the dog barks
+dog.bark();
+//  action 2: the dog sits
+dog.sit();
+//  action 3: the dog wags its tail
+dog.wagTail();
 
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: 
+//  action 1: the firefly hovers in place
+firefly.hoverInPlace();
+//  action 2: the firefly lights up
+firefly.lightUp();
+//  action 3: the firefly goes dim
+firefly.dim();
 
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: person
+//  action 1: this person can walk forward
+person.walkForward();
+//  action 2: this person can smile
+person.smile();
+//  action 3: this person can jump up and down
+person.jumpUpAndDown();
 
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: clock
+//  action 1: the clock ticks
+clock.tick();
+//  action 2: the clock shows the time
+clock.showTime();
+//  action 3: the clock shows the date
+clock.showDate();
 
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: pendulum
+//  action 1: the pendulum swings left
+pendulum.swingLeft();
+//  action 2: the pendulum swings right
+pendulum.swingRight();
+//  action 3: the pendulum stops swinging    
+pendulum.stopSwinging();
 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: stoplight
+//  action 1: the stoplight turns red
+stoplight.turnRed();
+//  action 2: the stoplight flashes yellow 
+stoplight.flashYellow();
+//  action 3: the stoplight turns green
+stoplight.turnGreen();
 
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: sine wave
+//  action 1: the sine wave oscillates
+sineWave.oscillate();
+//  action 2: the sine wave sweeps right
+sineWave.sweepRight();
+//  action 3: the sine wave inverts polarity
+sineWave.invertPolarity();
 
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: laptop
+//  action 1: the laptop starts up
+laptop.startUp();
+//  action 2: the laptop goes into sleep mode
+laptop.goToSleep();
+//  action 3: the laptop shuts down
+laptop.shutDown();
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun: coffee maker
+//  action 1: the coffee maker starts brewing
+coffeeMaker.startBrewing();
+//  action 2: the coffee maker stops brewing
+coffeeMaker.stopBrewing();
+//  action 3: the coffee maker beeps when brewing is complete
+coffeeMaker.beepWhenBrewingIsComplete();
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +160,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
