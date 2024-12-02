@@ -124,13 +124,13 @@ sineWave.sweepRight();
 sineWave.invertPolarity();
 
 //  9)
-//  Noun: laptop
-//  action 1: the laptop starts up
-laptop.startUp();
-//  action 2: the laptop goes into sleep mode
-laptop.goToSleep();
-//  action 3: the laptop shuts down
-laptop.shutDown();
+//  Noun: my robot
+//  action 1: my robot can say hello
+myRobot.sayHello();
+//  action 2: my robot can spin in a circle counter clockwise
+myRobot.rollInCircleCounterClockwise();
+//  action 3: my robot can bend its right knee
+myRobot.bendRightKnee();
 
 //  10)
 //  Noun: coffee maker
